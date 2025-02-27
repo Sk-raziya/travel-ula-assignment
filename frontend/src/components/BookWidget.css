@@ -1,0 +1,58 @@
+/* Booking Widget Section Styling */
+.booking-widget {
+    padding: 60px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+  }
+  
+  .booking-widget h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .widget {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .widget p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #ff6f61;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4a3d;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .booking-widget h2 {
+      font-size: 2rem;
+    }
+  
+    .widget p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
